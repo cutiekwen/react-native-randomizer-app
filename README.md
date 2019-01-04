@@ -50,7 +50,17 @@ Instead, type expo send -s +areacode number and expo will send a message to your
 
 Sample:
 ```
-kwen@cutiekwen:~/Documents/pastag/react-native-randomizer-app/randomizer$ expo send -s +639123456789
+kwen@cutiekwen:~/Documents/react-native-randomizer-app/randomizer$ expo send -s +639123456789
+```
+
+### INSTALL NPM
+This step is very important, especially if this is the first time that you've cloned the project. 
+To install npm, simply go to the project directory and type npm install. 
+This step is equivalent to pip install requirements.txt in Python.
+
+Sample:
+```
+kwen@cutiekwen:~/Documents/react-native-randomizer-app/randomizer$ npm install
 ```
 
 ### Possible Errors
