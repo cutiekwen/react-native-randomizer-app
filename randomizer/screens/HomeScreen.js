@@ -2,7 +2,8 @@ import React from 'react';
 import {
   View,
   Text,
-  StyleSheet
+  StyleSheet,
+  Image
 } from 'react-native';
 
 
@@ -13,7 +14,7 @@ class HomeScreen extends React.Component {
     drawerLabel: 'Notifications',
     drawerIcon: ({ tintColor }) => (
       <Image
-        source={require('./assets/list.png')}
+        source={require('../assets/list.png')}
         style={[styles.icon, {tintColor: tintColor}]}
       />
     ),
@@ -31,7 +32,7 @@ class HomeScreen extends React.Component {
     return (
      
       <View style={styles.container}>
-        <Text>HomeScreen</Text>
+        <Text style={styles.text}>RANDOMIZER- swipe left to show setting screen.js</Text>
 
       </View>
         
@@ -46,10 +47,16 @@ class HomeScreen extends React.Component {
 const styles = StyleSheet.create({
  
   container:{
-    backgroundColor: '#ffffff50',
+    backgroundColor: 'blue',
     justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column',
+    flex:1
   },
-  
+  text:{
+    color: 'white',
+    fontSize: 25,
+  }
 })
 
 
