@@ -14,7 +14,7 @@ class SettingsScreen extends React.Component {
     drawerLabel: 'Notifications',
     drawerIcon: ({ tintColor }) => (
       <Image
-        source={require('../assets/list.png')}
+        source={require('../../assets/list.png')}
         style={[styles.icon, {tintColor: tintColor}]}
       />
     ),
@@ -23,21 +23,15 @@ class SettingsScreen extends React.Component {
   constructor (props) {
     super(props);
     this.state ={
-    
     }
   }
 
   render() {
-   
     return (
-     
       <View style={styles.container}>
         <Text>SettingsScreen</Text>
 
       </View>
-        
-    
-     
     );
   }
 }
