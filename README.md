@@ -70,6 +70,7 @@ Double check that your phone and the server belongs to the same wifi host to avo
 I used medium.com's guide on the folder structure for best practices:
 https://medium.com/react-native-training/best-practices-for-creating-react-native-apps-part-1-66311c746df3
 
+```
 app
 |----- assets
 |         |----- fonts
@@ -81,6 +82,7 @@ app
 |----- services
 |----- providers
 |----- views
+```
 
 - The "app" folder is our root folder
 - The "assets" folder contains three other folders for the fonts, icons, and images
