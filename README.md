@@ -66,5 +66,35 @@ kwen@cutiekwen:~/Documents/react-native-randomizer-app/randomizer$ npm install
 ### Possible Errors
 Double check that your phone and the server belongs to the same wifi host to avoid errors in running the app.
 
+### Folder Structure (Best Practices)
+I used medium.com's guide on the folder structure for best practices:
+https://medium.com/react-native-training/best-practices-for-creating-react-native-apps-part-1-66311c746df3
+
+```
+app
+|----- assets
+|         |----- fonts
+|         |----- icons
+|         |----- images
+|----- components
+|----- i18n
+|----- modules
+|----- services
+|----- providers
+|----- views
+```
+
+- The "app" folder is our root folder
+- The "assets" folder contains three other folders for the fonts, icons, and images
+- The "components folder" contains all the components that can be reused anywhere across the app.
+  NOTE: State Logic should not be stored under this folder. 
+        This folder also contains our stylesheet.
+- The "i18n" folder cointains translation strings from different locales and languages.
+- The "modules" folder containes fuction that can be reused in the app.
+- The "services" folders contains functions to wrap the API call
+- The "providers" folder contains ReactNative's context API since we don't use external API packages.
+
+
+
 
 
