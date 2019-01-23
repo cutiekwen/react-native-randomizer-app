@@ -5,8 +5,8 @@ import {
 
 
 // MAIN PAGES LOCATION
-import HomeScreen from './screens/HomeScreen.js';
-import SettingScreen from './screens/SettingScreen.js';
+import HomeScreen from './app/views/HomeScreen.js';
+import SettingScreen from './app/views/SettingScreen.js';
 
 const MyDrawerNavigator = createDrawerNavigator({
 

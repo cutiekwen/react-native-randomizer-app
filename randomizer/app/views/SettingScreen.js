@@ -14,7 +14,7 @@ class SettingsScreen extends React.Component {
     drawerLabel: 'Notifications',
     drawerIcon: ({ tintColor }) => (
       <Image
-        source={require('../assets/list.png')}
+        source={require('../assets/images/list.png')}
         style={[styles.icon, {tintColor: tintColor}]}
       />
     ),
